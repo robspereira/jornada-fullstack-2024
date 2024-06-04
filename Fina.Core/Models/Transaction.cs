@@ -11,6 +11,7 @@ public class Transaction
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime? PaidOrReceivedAt { get; set; }
 
+    public double Amount { get; set; }
     public ETransactionType Type { get; set; } = ETransactionType.Withdraw;
     
     public long CategoryId { get; set; }

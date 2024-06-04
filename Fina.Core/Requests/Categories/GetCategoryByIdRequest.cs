@@ -1,6 +1,7 @@
 namespace Fina.Core.Requests.Categories;
 
-public class GetCategoryByIdRequest
+public class GetCategoryByIdRequest : Request
 {
+    public long Id { get; set; }
     
 }
